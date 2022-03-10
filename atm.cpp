@@ -21,8 +21,25 @@ cin >> option;
 
 switch (option) {
     case 1: 
-    cout << "Balance is:" <<balance<<"$"<<endl;
-    
+    cout << "Balance is:" <<balance<<"$"<<endl; 
+    break;
+    case 2:
+    cout << "Deposit amount:";
+    double depositAmount;
+    cin >> depositAmount;
+    balance +=depositAmount;
+    break;
+    case 3:
+    double withdrawAmount;
+    cout << "How much money do you want to withdraw?";
+    cin >> withdrawAmount;
+    if (withdrawAmount <= balance) {
+         balance -=withdrawAmount;
+    } else {
+        cout << "Sorry, not enough money on the balance!";
+    }
+    break;
+
 }
 
 

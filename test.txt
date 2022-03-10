@@ -1,4 +1,5 @@
 total 88
 -rwxr-xr-x  1 margaritakholostova  staff  40498 Mar 10 11:21 a.out
--rw-r--r--  1 margaritakholostova  staff    493 Mar 10 11:21 atm.cpp
--rw-r--r--  1 margaritakholostova  staff      0 Mar 10 11:22 test.txt
+-rw-r--r--  1 margaritakholostova  staff   1026 Mar 10 11:36 atm.cpp
+drwxr-xr-x  3 margaritakholostova  staff     96 Mar 10 11:27 build
+-rw-r--r--  1 margaritakholostova  staff      0 Mar 10 11:36 test.txt
